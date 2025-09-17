@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pyspark-data-prep",
-    version="0.1.0",
+    name="pyspark_data_prep",
+    version="0.1.1",
     description="A utility library for modifying PySpark DataFrames.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Lingesh G",
     author_email="lingeshg.dev@gmail.com",
-    url="https://github.com/githubLINGESH/pyspark-data-prep",
+    url="https://github.com/githubLINGESH/pyspark_data_prep",
     packages=find_packages(),
     install_requires=[
         "pyspark>=3.0.0",
